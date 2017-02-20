@@ -4,3 +4,43 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'box-sizing';
+
+$c-background: #000;
+
+body {
+  margin: 0;
+  background: $c-background;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+}
+
+.card {
+  background: yellow;
+  position: fixed;
+  top: 50%;
+  right:50%;
+  transform: translate(50%,-50%);
+  max-width: 65rem;
+  &__search-bar {
+    display: flex;
+  }
+
+  &__netflix-video {
+    width: 100%;
+  }
+
+  &__video {
+    display: flex;
+    justify-content: space-between;
+  }
+}
