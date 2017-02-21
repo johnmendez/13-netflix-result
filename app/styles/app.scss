@@ -22,10 +22,11 @@ img {
 }
 
 .container {
+  padding: 1rem;
 }
 
 .card {
-  background: yellow;
+  background: gray;
   position: fixed;
   top: 50%;
   right:50%;
@@ -35,12 +36,19 @@ img {
     display: flex;
   }
 
-  &__netflix-video {
-    width: 100%;
+  &__body {
+  padding: 1rem;
   }
-
   &__video {
     display: flex;
     justify-content: space-between;
   }
+  &__video-left {
+    width: 60rem;
+  }
+}
+
+.netflix-video {
+  width: 100%;
+  padding: 1rem;
 }
